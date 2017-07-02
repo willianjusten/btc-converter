@@ -1,3 +1,4 @@
+const chalk = require('chalk');
 const request = require('request');
 
 function convertBTC(currency = 'USD', amount = 1) {
@@ -9,11 +10,11 @@ function convertBTC(currency = 'USD', amount = 1) {
     try {
       apiResponse = JSON.parse(body);
     } catch(parseError) {
-      console.log('Something went wrong in the API. Try in a few minutes.')
+      console.log(chalk.red('Something went wrong in the API. Try in a few minutes.'));
       return parseError;
     }
 
-    console.log(`${amount} BTC to ${currency} = ${apiResponse.price}`);
+    console.log(`${chalk.red(amount)} BTC to ${chalk.cyan(currency)} = ${chalk.yellow(apiResponse.price)}`);
   });
 }
 
