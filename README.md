@@ -17,7 +17,7 @@ btc-converter --help
 
   Usage: btc-converter [options]
 
-  Convert Bitcoint to any currency defined
+  Convert Bitcoin to any currency defined
 
   Options:
 
