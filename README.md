@@ -4,6 +4,8 @@
 
 ![Example CLI running](img/example.gif)
 
+Want to learn how to create your own CLI? [Check this course about JS with TDD](https://www.udemy.com/js-com-tdd-na-pratica/?couponCode=GITHUB_LINK)
+
 ### Installing
 
 ```
