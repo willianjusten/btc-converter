@@ -1,6 +1,6 @@
 {
   "name": "btc-converter",
-  "version": "1.0.2",
+  "version": "1.1.0",
   "description": "A CLI to convert Bitcoin to any currency provided.",
   "main": "index.js",
   "scripts": {
